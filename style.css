@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* Sections */
+.section {
+    text-align: center;
+    padding: 60px;
+}
+
+.home {
+    background-color: lightblue;
+}
+
+.about {
+    background-color: lightyellow;
+}
+
+.contact {
+    background-color: lightgreen;
+}
+
+/* Image */
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
