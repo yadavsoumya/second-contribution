@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Web Page</title>
+    <title>Home</title>
 </head>
-<body style="background-color: lightblue; text-align: center;">
 
-    <h1>Hello Soumya 👋</h1>
-    <p>This is my first website hosted on GitHub 🚀</p>
+<body style="margin:0; font-family: Arial;">
 
-    <br>
+    <!-- Navbar -->
+    <div style="background-color:black; padding:15px; text-align:center;">
+        <a href="index.html" style="color:white; margin:15px;">Home</a>
+        <a href="about.html" style="color:white; margin:15px;">About</a>
+        <a href="contact.html" style="color:white; margin:15px;">Contact</a>
+    </div>
 
-    <a href="about.html">
-        <button>About</button>
-    </a>
+    <!-- Content -->
+    <div style="text-align:center; padding:50px; background-color:lightblue;">
+        <h1>Hello Soumya 👋</h1>
+        <p>Welcome to my portfolio website 🚀</p>
 
-    <a href="contact.html">
-        <button>Contact</button>
-    </a>
+        <img src="https://via.placeholder.com/150" alt="Profile Photo" style="border-radius:50%;">
+
+        <br><br>
+
+        <button onclick="alert('Welcome to my site!')" 
+        style="padding:10px 20px; background-color:blue; color:white; border:none; border-radius:5px;">
+        Click Me
+        </button>
+    </div>
 
 </body>
-
-
 </html>
